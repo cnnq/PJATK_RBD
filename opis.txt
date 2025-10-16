@@ -1,19 +1,25 @@
-# Jak szeroko potraktujemy nasz temat (granice systemu):
+# Jak szeroko potraktujemy nasz temat (granice systemu)
 Dokumentacja pracy sytemu.
 
-# Na jakim procesie się skupimy a jakie pominiemy:
-Procesy na których się skupimy: Zarządzanie personelem i wizytami.
-Procesy które pominiemy: // TODO
+# Na jakim procesie się skupimy a jakie pominiemy
+## Procesy na których się skupimy
+Zarządzanie personelem i wizytami.
 
-# Jakie elementy rzeczywistości są najistotniejsze w tym procesie:
+## Procesy które pominiemy
 // TODO
 
-# Jak rozumiemy i definiujemy te elementy/byty:
-Oddziały: // TODO
-Personel: // TODO
-Lekarze: // TODO
-Pacjenci: // TODO
-Wizyty: // TODO
 
-# Jakie zależności/związki między tymi elementami dostrzegamy:
+# Jakie elementy rzeczywistości są najistotniejsze w tym procesie
 // TODO
+
+
+# Jak rozumiemy i definiujemy te elementy/byty
+- Oddziały: // TODO
+- Personel: // TODO
+- Lekarze:  // TODO
+- Pacjenci: // TODO
+- Wizyty:   // TODO
+
+# Jakie zależności/związki między tymi elementami dostrzegamy
+// TODO
+
