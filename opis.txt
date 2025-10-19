@@ -1,25 +1,38 @@
 # Jak szeroko potraktujemy nasz temat (granice systemu)
-Dokumentacja pracy sytemu.
+System rejestrujący pobyt pacjenta w szpitalu oraz jego interakcje z personelem (w tym z lekarzami).
+
 
 # Na jakim procesie się skupimy a jakie pominiemy
 ## Procesy na których się skupimy
-Zarządzanie personelem i wizytami.
+Skupiamy się na pacjencie i na tym co się z nim dzieje podczas pobytu w szpitalu.
 
 ## Procesy które pominiemy
-// TODO
+- Zgłoszenia na interwencje
+- Wysyłanie karetek
+- Finanse
+- Przechowywanie wyników badań
 
 
 # Jakie elementy rzeczywistości są najistotniejsze w tym procesie
-// TODO
+Pacjenci, lekarze, personel, oddziały, procedura rejestracji pacjenta.
 
 
 # Jak rozumiemy i definiujemy te elementy/byty
-- Oddziały: // TODO
-- Personel: // TODO
-- Lekarze:  // TODO
-- Pacjenci: // TODO
-- Wizyty:   // TODO
+Szpital: Miejsce, w którym pacjent przebywa w celu leczenia lub diagnozy choroby.
+
+Encje:
+- Pacjenci:   Osoby, które przychodzą do szpitala w celu leczenia albo zdiagnozowania choroby.
+- Oddziały:   Część budynku szpitala, która specjalizuje się w leczeniu danej grupy schorzeń.
+- Lekarze:    Osoby, które decydują o przebiegu leczenia pacjenta lub go diagnozują.
+- Wizyty:     Krótkotrwały pobyt pacjenta w szpitalu.
+- Obserwacje: Długotrwały pobyt pacjenta w szpitalu (więcej niż 1 doba).
+- Personel:   Osoby, które pracują w obrębie danego oddziału (z wyjątkiem lekarzy).
+
 
 # Jakie zależności/związki między tymi elementami dostrzegamy
-// TODO
-
+- Pacjent - Wizyta:     Pacjent może być zarejestrowany na wiele wizyt.
+- Pacjent - Obserwacja: Pacjent może być na wielu obserwacjach na przestrzeni lat.
+- Lekarz - Wizyta:      Lekarz może mieć umówionych wiele wizyt.
+- Lekarz - Obserwacja:  Lekarz może prowadzić wiele obserwacji.
+- Oddział - Lekarz:     Na oddziale może pracować wielu lekarzy.
+- Oddział - Personel:   Na oddziale może pracować wielu pracowników personelu.
